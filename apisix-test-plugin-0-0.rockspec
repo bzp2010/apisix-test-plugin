@@ -1,7 +1,7 @@
 package = "apisix-test-plugin"
 version = "0-0"
 source = {
-    url = "https://github.com/bzp2010/apisix-test-plugin",
+    url = "git+https://github.com/bzp2010/apisix-test-plugin",
     branch = "main",
 }
 
