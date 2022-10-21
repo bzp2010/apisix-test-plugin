@@ -5,7 +5,7 @@ local core    = require("apisix.core")
 -- local function
 
 -- module define
-local plugin_name = "demo"
+local plugin_name = "test"
 
 -- plugin schema
 local plugin_schema = {
@@ -94,7 +94,7 @@ function _M.api()
     return {
         {
             methods = {"GET"},
-            uri = "/apisix/plugin/demo/public_api",
+            uri = "/apisix/plugin/test/public_api",
             handler = public_api,
         }
     }
